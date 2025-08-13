@@ -16,13 +16,19 @@ module.exports = {
     ],
     sidebar: [
       {
-          title: '首页',
-          path: '/'
-      },
-      {
-          title: "菜单一",
-          path: '/blog/智律星',
+          title: "目录",
+          path: '/blog',
           collapsable: false, // 不折叠
+          children: [
+            {
+              title: "智律星",
+              path: '/blog/智律星'
+            },
+            {
+              title: "webpack",
+              path: '/blog/webpack
+            }
+          ]
       }
     ]
   }
