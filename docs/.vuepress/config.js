@@ -26,7 +26,7 @@ module.exports = {
             },
             {
               title: "webpack",
-              path: '/blog/webpack
+              path: "/blog/webpack"
             }
           ]
       }
